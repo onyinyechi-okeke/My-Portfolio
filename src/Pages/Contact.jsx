@@ -93,7 +93,7 @@ function Contact() {
               type='text'
               name='email'
               placeholder='Your Email, Please'
-              className='p-4 my-4 bg-transparent focus:outline-none'
+              className='p-2 my-4 bg-transparent focus:outline-none'
               value={formData.email}
               onChange={handleInputChange}
               onBlur={handleInputBlur}
