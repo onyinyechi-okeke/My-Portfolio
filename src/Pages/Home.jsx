@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Onyii from '../assets/Onyii.jpg'
+import { Link } from "react-scroll";
 
 function Home() {
   return (
@@ -17,10 +18,11 @@ function Home() {
             
 
             <div>
-                <button className='group w-fit mb-10 md:mb-0 gap-2 bg-gradient-to-r from-amber-400 to-amber-600 px-6 py-3 my-2 flex items-center rounded-md cursor-pointer text-xl mx-auto md:mx-0'>
+                <Link className='group w-fit mb-10 md:mb-0 gap-2 bg-gradient-to-r from-amber-400 to-amber-600 px-6 py-3 my-2 flex items-center rounded-md cursor-pointer text-xl mx-auto md:mx-0'
+                to='Projects' smooth duration={500}>
                     Portfolio
                     <span className='animate-pulse group-hover:rotate-90 duration-300'><FaLongArrowAltRight size={25}/></span>
-                </button>
+                </Link>
             </div>
              </div>
 

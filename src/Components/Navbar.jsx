@@ -62,7 +62,7 @@ function Navbar() {
       </div>
 
       {nav &&
-        <ul className='flex flex-col items-center absolute top-20 right-0 bg-black w-full h-screen'>
+        <ul className='flex flex-col items-center absolute top-20 right-0 bg-black w-full h-screen overflow-hidden'>
           {links.map(({ id, link }) => (
             <li className={`py-6 cursor-pointer text-4xl ${activeLink === link ? 'text-amber-500' : 'text-white'}`} // Apply red color if active, white otherwise
             key={id}> 
