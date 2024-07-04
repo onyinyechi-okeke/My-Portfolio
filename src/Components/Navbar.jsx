@@ -41,7 +41,7 @@ function Navbar() {
   }
   
   return (
-    <div className='flex justify-between bg-black w-full h-20 items-center px-2 md:px-6 fixed'>
+    <div className='flex justify-between bg-black w-full h-20 items-center px-2 md:px-6 fixed z-50'>
       <div>
         <h1 className='font-signature text-5xl font-semibold ml-2'>
           Onyiicodes</h1>
