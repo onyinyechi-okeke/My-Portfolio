@@ -1,5 +1,5 @@
 import React from 'react'
-import autopay from '../assets/autopay.png'
+import autopay from '../assets/techcity.png'
 import goforit from '../assets/goforit.png'
 import portfolio from '../assets/portfolio.png'
 import { FaGithub, FaCloudDownloadAlt } from "react-icons/fa";
@@ -19,8 +19,8 @@ function Project() {
         id: 2,
         src: autopay,
         href1: 'https://github.com/learnable-2022/PS-3-FE',
-        href2: 'https://autopay.netlify.app',
-        p: 'AutoPay, an automated payment app'
+        href2: 'https://techcityafrica.vercel.app/',
+        p: 'TechCityAfrica, UI/UX of a fintech app'
       },
 
       {

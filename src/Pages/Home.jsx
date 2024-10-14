@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Onyii from '../assets/Onyii.jpg'
 import { Link } from "react-scroll";
@@ -10,7 +10,7 @@ function Home() {
         <div className='max-w-screen-lg mx-auto flex  items-center flex-col-reverse justify-center h-full px-6 py-10 md:flex-row md:pt-14'>
             <div className='flex flex-col justify-center h-full pl-4 sm:pl-0'>
                 <h2 className='text-amber-400 text-2xl sm:text-5xl font-bold pt-5 md:pt-0 text-center md:text-start'>A Passionate Frontend Developer</h2>
-                <p className='py-5 md:pr-16 text-center md:text-start'>
+                <p className='py-5 md:pr-16 text-center md:text-start md: text-[18px]'>
                 I am a highly motivated frontend developer with a passion for creating friendly, interactive and user
                 centric products. I am seeking opportunities to leverage my skills as a react developer to
                 contribute to innovative web projects and collaborate with dynamic teams.

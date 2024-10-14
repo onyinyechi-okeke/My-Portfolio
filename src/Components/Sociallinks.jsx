@@ -41,7 +41,7 @@ const links = [
 ];
 
   return ( 
-    <div className='hidden md:flex flex-c0l fixed top-52 left-0'>
+    <div className='hidden md:flex flex-c0l fixed top-[35%] left-0'>
       <ul>
         {links.map(({ id, child, href, style }) =>(
           <li key={id}
